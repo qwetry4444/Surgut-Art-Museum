@@ -1,0 +1,43 @@
+footer{
+    margin-top: 100px;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    flex: 0 0 auto;
+    background-color: #1A1A33;
+}
+.footer__txt {
+    text-decoration: none;
+    color: #b1b1b1;
+    margin-left: 215px;
+    margin-top: 68px;
+    margin-bottom: 47px;
+
+}
+.footer__ocenka {
+    margin-left: 144px;
+    margin-top: 52px;
+    
+}
+.footer__ocenkaTxt {
+    text-decoration: none;
+    color: #b1b1b1;
+
+}
+
+.footer__otziv {
+    margin-left: 80px;
+    margin-top: 52px;
+}
+.footer__otzivtxt {
+    position: fixed;
+    bottom: 0px;
+    
+}
+.footer__otzivTxt {
+    margin: 0px;
+    text-decoration: none;
+    color: #b1b1b1;
+}

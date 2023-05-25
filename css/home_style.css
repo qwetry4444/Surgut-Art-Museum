@@ -1,0 +1,138 @@
+.container{
+    /* background-color:black; */
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'Montserrat', serif;
+    stroke-width: 700;
+    width: 1170px;
+    margin: 0 auto;
+    /* border: 1px solid #1A1; */
+}
+main{
+    position: relative;
+}
+
+html{
+    background-color: #000;
+}   
+
+
+body{
+    /* background-color: black; */
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.main_container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.offer__ispania {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    width: 100%;
+}
+.img_main{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+    width: 100%;
+    z-index:-1;
+    object-fit: cover;
+}
+.img_kingal{
+    position: absolute;
+    top: 30%;
+    left:0px;
+    z-index: -1;
+    width: 100%;
+    margin-bottom: 100px;
+    object-fit: cover;
+}
+.offer__ispaniatxt {
+    position: relative;
+    margin-bottom: 500px;
+    margin-top: 150px;
+
+}
+
+.offer__ispania_knopka {
+    background-color:rgb(167, 140, 54);
+    width: 280px;
+}
+.offer__ispania_knopka1{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.offer__kingaltxt {
+    position: relative;
+    margin-bottom: 320px;
+}
+.offer__kingalText1{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color:rgb(95, 90, 75);
+    width: 280px;
+}
+
+
+
+@media(max-width: 600px){
+    .container{
+        font-size: 14px;
+    }
+}
+@media(max-width: 900px){
+    .container{
+        font-size: 14px;
+    }
+}
+@media(max-width: 1100px){
+    .container{
+        font-size: 20px;
+    }
+}
+@media(max-width: 1200px){
+    .offer__ispaniatxt{
+        margin-bottom: 300px;
+    }
+    .img_kingal{
+        top:650px;
+    }
+}
+@media(max-width: 1400px){
+    .offer__ispaniatxt{
+        margin-bottom: 400px;
+    }
+    .img_kingal{
+        top:750px;
+    }
+}
+@media(max-width: 1700px){
+    .offer__ispaniatxt{
+        margin-bottom: 500px;
+    }
+    .img_kingal{
+        top:850px;
+    }
+}
+@media(max-width: 2100px){
+    .offer__ispaniatxt{
+        margin-bottom: 500px;
+    }
+    .img_kingal{
+        top:950px;
+    }
+}
+
+
+
