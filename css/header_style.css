@@ -1,0 +1,42 @@
+.header {
+    top: 0px;
+    left: 0px;
+    background: black;
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    height: 70px;
+    flex: 1 0 auto
+}
+.header__img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.header__avtorizatsia{
+    margin-right: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+
+}
+.header__avtorizatsia_group {
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    font-size: 25px;
+    stroke-width: 200;
+}
+
+.header__auth_text{
+    margin-right: 15px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
