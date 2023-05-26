@@ -38,7 +38,7 @@ body{
   .wrapper{
 
     width: 400px;
-    height: 440px;
+    height: 490px;
     background:transparent;
     border: 2px solid rgba(182, 182,182, .5);
     border-radius: 20px;
@@ -191,4 +191,7 @@ body{
 
  .status{
    margin-top: 20px;
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: center;
  }

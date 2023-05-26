@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/spain_style.css">
     <link rel="stylesheet" href="../css/footer_style.css">
     <link rel="stylesheet" href="../css/header_style.css">
+    <link rel="stylesheet" href="../css/events_style.css">
 
     <title>Сургутский художественный музей</title>
 </head>
@@ -37,6 +38,12 @@
                 case 'spain':
                     require('spain.php');
                     break;
+
+                case 'events':
+                    require('events.php');
+                    break;
+
+            
                     
                 case 'login':
                     require('login_page.php');

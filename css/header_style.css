@@ -26,12 +26,22 @@
     text-align: center; 
 
 }
-.header__avtorizatsia_group {
+.header__avtorizatsia_group, .header__comments {
     display: flex;
     align-items: center;
     text-align: center; 
     font-size: 25px;
     stroke-width: 200;
+        
+}
+
+.header__comments {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__img a{
+    text-decoration: none;
 }
 
 .header__auth_text{
