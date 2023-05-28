@@ -1,0 +1,31 @@
+.form_box{
+    padding: 50px;
+}
+
+.form_box div{
+    padding: 15px;
+}
+
+fieldset{
+    border-radius: 20px;
+}
+
+fieldset div div:nth-child(2){
+    margin-right: 20px;
+}
+
+.rate_block div{
+    margin-right: 20px;
+}
+
+.rate_block{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.submit_block{
+    width: 150px;
+    height: 64px;
+    background-color: #fff;
+    border-radius: 25px;
+}

@@ -18,7 +18,7 @@
                 $event_name = $event['name'];
                 $event_type = $event['type'];
                 $event_description = $event['description'];
-                $event_link = sprintf('event.php?event_id=%d', $event_id);
+                $event_link = sprintf('main.php?page=event&event_id=%d', $event_id);
         ?>
                 <?php echo("<a href=$event_link class='event_link'>") ?>
                     <div class="event">

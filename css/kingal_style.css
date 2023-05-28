@@ -70,6 +70,22 @@ body{
 }
 
 
+.make_comment{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.make_comment a, .make_comment div{
+    color: #000;
+    text-decoration: none;  
+}
+
+.make_comment:hover{
+    background-color: #bbbbbb;
+}
 
 
 

@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="../css/footer_style.css">
     <link rel="stylesheet" href="../css/header_style.css">
     <link rel="stylesheet" href="../css/events_style.css">
+    <link rel="stylesheet" href="../css/event_style.css">
+    <link rel="stylesheet" href="../css/comment_form_style.css">
 
     <title>Сургутский художественный музей</title>
 </head>
@@ -43,7 +45,13 @@
                     require('events.php');
                     break;
 
-            
+                case 'event':
+                    require('event.php');
+                    break;
+
+                case 'comment_form':
+                    require('comment_form.php');
+                    break;
                     
                 case 'login':
                     require('login_page.php');

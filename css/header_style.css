@@ -6,9 +6,9 @@
     padding: 0px;
     border: 0px;
     margin-top: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     height: 70px;
-    flex: 1 0 auto
+    /* flex: 1 0 auto */
 }
 .header__img {
     display: flex;
